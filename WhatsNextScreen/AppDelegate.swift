@@ -14,8 +14,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        let navigator = UINavigationController(rootViewController: WhatsNextViewController())
+        window.rootViewController = navigator
+        window.makeKeyAndVisible()
+
         return true
+
     }
 
     // MARK: UISceneSession Lifecycle

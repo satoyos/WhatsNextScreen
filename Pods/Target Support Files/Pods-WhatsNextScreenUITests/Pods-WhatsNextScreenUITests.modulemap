@@ -1,0 +1,6 @@
+framework module Pods_WhatsNextScreenUITests {
+  umbrella header "Pods-WhatsNextScreenUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
