@@ -28,6 +28,7 @@ class WhatsNextViewController: UIViewController {
         setNavBarButtons()
         layoutButtons()
         setAccessibilityLabelToButtons()
+        setButtonActions()
     }
     
     private func setNavBarButtons() {
@@ -60,6 +61,12 @@ class WhatsNextViewController: UIViewController {
         goNextButton.accessibilityLabel = "goNext"
         gearButton.accessibilityLabel = "gear"
         exitButton.accessibilityLabel = "exit"
+    }
+    
+    private func setButtonActions() {
+        torifudaButton.addTarget(self, action: #selector(torifudaButtonTapped), for: .touchUpInside)
+        refrainButton.addTarget(self, action: #selector(refrainButtonTapped), for: .touchUpInside)
+        goNextButton.addTarget(self, action: #selector(goNextButtonTapped), for: .touchUpInside)
     }
     
 }

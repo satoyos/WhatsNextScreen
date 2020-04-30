@@ -11,10 +11,22 @@ import UIKit
 extension WhatsNextViewController {
 
     @objc func gearButtonTapped() {
-        assert(true, "歯車ボタンが押された！")
+        print("歯車ボタンが押された！")
     }
     
     @objc func exitButtonTapped() {
-        assert(true, "Exitボタンが押された！")
+        print("Exitボタンが押された！")
+    }
+    
+    @objc func torifudaButtonTapped() {
+        print("取り札ボタンが押された！")
+    }
+    
+    @objc func refrainButtonTapped() {
+        print("読み直しボタンが押された！")
+    }
+    
+    @objc func goNextButtonTapped() {
+        print("次の歌に進むボタンが押された！")
     }
 }
