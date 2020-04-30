@@ -12,7 +12,6 @@
 		92328C44245A6289005E0FEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92328C43245A6289005E0FEE /* SceneDelegate.swift */; };
 		92328C4B245A628B005E0FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92328C4A245A628B005E0FEE /* Assets.xcassets */; };
 		92328C4E245A628B005E0FEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92328C4C245A628B005E0FEE /* LaunchScreen.storyboard */; };
-		92328C59245A628B005E0FEE /* WhatsNextScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92328C58245A628B005E0FEE /* WhatsNextScreenTests.swift */; };
 		92328C64245A628B005E0FEE /* WhatsNextScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92328C63245A628B005E0FEE /* WhatsNextScreenUITests.swift */; };
 		92328C72245A6495005E0FEE /* WhatsNextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92328C71245A6495005E0FEE /* WhatsNextButton.swift */; };
 		92328C73245A6495005E0FEE /* WhatsNextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92328C71245A6495005E0FEE /* WhatsNextButton.swift */; };
@@ -48,6 +47,7 @@
 		92FFBF07245A6DF7004D7F79 /* ViewSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF06245A6DF7004D7F79 /* ViewSize.swift */; };
 		92FFBF08245A6DF7004D7F79 /* ViewSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF06245A6DF7004D7F79 /* ViewSize.swift */; };
 		92FFBF09245A6DF7004D7F79 /* ViewSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF06245A6DF7004D7F79 /* ViewSize.swift */; };
+		92FFBF0C245AA457004D7F79 /* WhatsNextScreenTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF0A245AA457004D7F79 /* WhatsNextScreenTest.swift */; };
 		EE77F7C882333A633A666067 /* Pods_WhatsNextScreenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788DA79BFFEC3735B0711F0 /* Pods_WhatsNextScreenTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,7 +81,6 @@
 		92328C4D245A628B005E0FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92328C4F245A628B005E0FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92328C54245A628B005E0FEE /* WhatsNextScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsNextScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		92328C58245A628B005E0FEE /* WhatsNextScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNextScreenTests.swift; sourceTree = "<group>"; };
 		92328C5A245A628B005E0FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92328C5F245A628B005E0FEE /* WhatsNextScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsNextScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92328C63245A628B005E0FEE /* WhatsNextScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNextScreenUITests.swift; sourceTree = "<group>"; };
@@ -97,6 +96,7 @@
 		92FFBEFE245A6DB9004D7F79 /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		92FFBF02245A6DCF004D7F79 /* StandardColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardColor.swift; sourceTree = "<group>"; };
 		92FFBF06245A6DF7004D7F79 /* ViewSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewSize.swift; sourceTree = "<group>"; };
+		92FFBF0A245AA457004D7F79 /* WhatsNextScreenTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNextScreenTest.swift; sourceTree = "<group>"; };
 		A9D1ADF83436A93EA5780184 /* Pods-WhatsNextScreen-WhatsNextScreenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNextScreen-WhatsNextScreenUITests.release.xcconfig"; path = "Target Support Files/Pods-WhatsNextScreen-WhatsNextScreenUITests/Pods-WhatsNextScreen-WhatsNextScreenUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C6A19B5E014D60943987B903 /* Pods-WhatsNextScreen-WhatsNextScreenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNextScreen-WhatsNextScreenUITests.debug.xcconfig"; path = "Target Support Files/Pods-WhatsNextScreen-WhatsNextScreenUITests/Pods-WhatsNextScreen-WhatsNextScreenUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1EA6061BC8A3CD501A1767E /* Pods-WhatsNextScreenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNextScreenTests.release.xcconfig"; path = "Target Support Files/Pods-WhatsNextScreenTests/Pods-WhatsNextScreenTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -175,7 +175,7 @@
 		92328C57245A628B005E0FEE /* WhatsNextScreenTests */ = {
 			isa = PBXGroup;
 			children = (
-				92328C58245A628B005E0FEE /* WhatsNextScreenTests.swift */,
+				92FFBF0A245AA457004D7F79 /* WhatsNextScreenTest.swift */,
 				92328C5A245A628B005E0FEE /* Info.plist */,
 			);
 			path = WhatsNextScreenTests;
@@ -499,11 +499,11 @@
 			files = (
 				92328C73245A6495005E0FEE /* WhatsNextButton.swift in Sources */,
 				92328C8C245A652A005E0FEE /* WhatsNextViewController.swift in Sources */,
+				92FFBF0C245AA457004D7F79 /* WhatsNextScreenTest.swift in Sources */,
 				92FFBEF8245A6DA3004D7F79 /* UIColorExtention.swift in Sources */,
 				92328C84245A64DD005E0FEE /* WahtsNextScreenLayout.swift in Sources */,
 				92FFBF08245A6DF7004D7F79 /* ViewSize.swift in Sources */,
 				92FFBF00245A6DB9004D7F79 /* UIButtonExtension.swift in Sources */,
-				92328C59245A628B005E0FEE /* WhatsNextScreenTests.swift in Sources */,
 				92FFBF04245A6DCF004D7F79 /* StandardColor.swift in Sources */,
 				92FFBEFC245A6DAD004D7F79 /* UIImageExtension.swift in Sources */,
 			);
