@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import WhatsNextScreen 
 
 class WhatsNextScreenTest: XCTestCase {
 

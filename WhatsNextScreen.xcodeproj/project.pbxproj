@@ -170,17 +170,17 @@
 		92328C40245A6289005E0FEE /* WhatsNextScreen */ = {
 			isa = PBXGroup;
 			children = (
+				92FFBF1B245B030A004D7F79 /* views */,
+				92FFBF1C245B0321004D7F79 /* layouts */,
+				92FFBF1A245B02FA004D7F79 /* delegates */,
+				92FFBF19245B02E9004D7F79 /* screens */,
 				92328C41245A6289005E0FEE /* AppDelegate.swift */,
 				92328C43245A6289005E0FEE /* SceneDelegate.swift */,
-				92328C8A245A652A005E0FEE /* WhatsNextViewController.swift */,
-				92328C82245A64DD005E0FEE /* WahtsNextScreenLayout.swift */,
-				92328C71245A6495005E0FEE /* WhatsNextButton.swift */,
 				92328C4A245A628B005E0FEE /* Assets.xcassets */,
 				92328C4C245A628B005E0FEE /* LaunchScreen.storyboard */,
 				92328C4F245A628B005E0FEE /* Info.plist */,
 				92FFBEF5245A6D6D004D7F79 /* lib */,
 				92328C75245A64A4005E0FEE /* resources */,
-				92FFBF0D245AFE3A004D7F79 /* WhatsNextScreenDelegate.swift */,
 			);
 			path = WhatsNextScreen;
 			sourceTree = "<group>";
@@ -225,6 +225,38 @@
 				92FFBF06245A6DF7004D7F79 /* ViewSize.swift */,
 			);
 			path = lib;
+			sourceTree = "<group>";
+		};
+		92FFBF19245B02E9004D7F79 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				92328C8A245A652A005E0FEE /* WhatsNextViewController.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		92FFBF1A245B02FA004D7F79 /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				92FFBF0D245AFE3A004D7F79 /* WhatsNextScreenDelegate.swift */,
+			);
+			path = delegates;
+			sourceTree = "<group>";
+		};
+		92FFBF1B245B030A004D7F79 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				92328C71245A6495005E0FEE /* WhatsNextButton.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		92FFBF1C245B0321004D7F79 /* layouts */ = {
+			isa = PBXGroup;
+			children = (
+				92328C82245A64DD005E0FEE /* WahtsNextScreenLayout.swift */,
+			);
+			path = layouts;
 			sourceTree = "<group>";
 		};
 		A291E2053E1AC1C995354AC5 /* Pods */ = {
