@@ -48,6 +48,15 @@
 		92FFBF08245A6DF7004D7F79 /* ViewSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF06245A6DF7004D7F79 /* ViewSize.swift */; };
 		92FFBF09245A6DF7004D7F79 /* ViewSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF06245A6DF7004D7F79 /* ViewSize.swift */; };
 		92FFBF0C245AA457004D7F79 /* WhatsNextScreenTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF0A245AA457004D7F79 /* WhatsNextScreenTest.swift */; };
+		92FFBF0E245AFE3A004D7F79 /* WhatsNextScreenDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF0D245AFE3A004D7F79 /* WhatsNextScreenDelegate.swift */; };
+		92FFBF0F245AFE3A004D7F79 /* WhatsNextScreenDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF0D245AFE3A004D7F79 /* WhatsNextScreenDelegate.swift */; };
+		92FFBF10245AFE3A004D7F79 /* WhatsNextScreenDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF0D245AFE3A004D7F79 /* WhatsNextScreenDelegate.swift */; };
+		92FFBF12245AFF24004D7F79 /* gear-520.png in Resources */ = {isa = PBXBuildFile; fileRef = 92FFBF11245AFF24004D7F79 /* gear-520.png */; };
+		92FFBF13245AFF24004D7F79 /* gear-520.png in Resources */ = {isa = PBXBuildFile; fileRef = 92FFBF11245AFF24004D7F79 /* gear-520.png */; };
+		92FFBF14245AFF24004D7F79 /* gear-520.png in Resources */ = {isa = PBXBuildFile; fileRef = 92FFBF11245AFF24004D7F79 /* gear-520.png */; };
+		92FFBF16245AFF33004D7F79 /* exit_square.png in Resources */ = {isa = PBXBuildFile; fileRef = 92FFBF15245AFF33004D7F79 /* exit_square.png */; };
+		92FFBF17245AFF33004D7F79 /* exit_square.png in Resources */ = {isa = PBXBuildFile; fileRef = 92FFBF15245AFF33004D7F79 /* exit_square.png */; };
+		92FFBF18245AFF33004D7F79 /* exit_square.png in Resources */ = {isa = PBXBuildFile; fileRef = 92FFBF15245AFF33004D7F79 /* exit_square.png */; };
 		EE77F7C882333A633A666067 /* Pods_WhatsNextScreenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788DA79BFFEC3735B0711F0 /* Pods_WhatsNextScreenTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +106,9 @@
 		92FFBF02245A6DCF004D7F79 /* StandardColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardColor.swift; sourceTree = "<group>"; };
 		92FFBF06245A6DF7004D7F79 /* ViewSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewSize.swift; sourceTree = "<group>"; };
 		92FFBF0A245AA457004D7F79 /* WhatsNextScreenTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNextScreenTest.swift; sourceTree = "<group>"; };
+		92FFBF0D245AFE3A004D7F79 /* WhatsNextScreenDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNextScreenDelegate.swift; sourceTree = "<group>"; };
+		92FFBF11245AFF24004D7F79 /* gear-520.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear-520.png"; sourceTree = "<group>"; };
+		92FFBF15245AFF33004D7F79 /* exit_square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit_square.png; sourceTree = "<group>"; };
 		A9D1ADF83436A93EA5780184 /* Pods-WhatsNextScreen-WhatsNextScreenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNextScreen-WhatsNextScreenUITests.release.xcconfig"; path = "Target Support Files/Pods-WhatsNextScreen-WhatsNextScreenUITests/Pods-WhatsNextScreen-WhatsNextScreenUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C6A19B5E014D60943987B903 /* Pods-WhatsNextScreen-WhatsNextScreenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNextScreen-WhatsNextScreenUITests.debug.xcconfig"; path = "Target Support Files/Pods-WhatsNextScreen-WhatsNextScreenUITests/Pods-WhatsNextScreen-WhatsNextScreenUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1EA6061BC8A3CD501A1767E /* Pods-WhatsNextScreenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNextScreenTests.release.xcconfig"; path = "Target Support Files/Pods-WhatsNextScreenTests/Pods-WhatsNextScreenTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -168,6 +180,7 @@
 				92328C4F245A628B005E0FEE /* Info.plist */,
 				92FFBEF5245A6D6D004D7F79 /* lib */,
 				92328C75245A64A4005E0FEE /* resources */,
+				92FFBF0D245AFE3A004D7F79 /* WhatsNextScreenDelegate.swift */,
 			);
 			path = WhatsNextScreen;
 			sourceTree = "<group>";
@@ -196,6 +209,8 @@
 				92328C76245A64C5005E0FEE /* go_next.png */,
 				92328C78245A64C5005E0FEE /* refrain.png */,
 				92328C77245A64C5005E0FEE /* torifuda.png */,
+				92FFBF11245AFF24004D7F79 /* gear-520.png */,
+				92FFBF15245AFF33004D7F79 /* exit_square.png */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -348,9 +363,11 @@
 			files = (
 				92328C4E245A628B005E0FEE /* LaunchScreen.storyboard in Resources */,
 				92328C7C245A64C5005E0FEE /* torifuda.png in Resources */,
+				92FFBF12245AFF24004D7F79 /* gear-520.png in Resources */,
 				92328C4B245A628B005E0FEE /* Assets.xcassets in Resources */,
 				92328C79245A64C5005E0FEE /* go_next.png in Resources */,
 				92328C7F245A64C5005E0FEE /* refrain.png in Resources */,
+				92FFBF16245AFF33004D7F79 /* exit_square.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +377,9 @@
 			files = (
 				92328C7A245A64C5005E0FEE /* go_next.png in Resources */,
 				92328C80245A64C5005E0FEE /* refrain.png in Resources */,
+				92FFBF13245AFF24004D7F79 /* gear-520.png in Resources */,
 				92328C7D245A64C5005E0FEE /* torifuda.png in Resources */,
+				92FFBF17245AFF33004D7F79 /* exit_square.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +389,9 @@
 			files = (
 				92328C7B245A64C5005E0FEE /* go_next.png in Resources */,
 				92328C81245A64C5005E0FEE /* refrain.png in Resources */,
+				92FFBF14245AFF24004D7F79 /* gear-520.png in Resources */,
 				92328C7E245A64C5005E0FEE /* torifuda.png in Resources */,
+				92FFBF18245AFF33004D7F79 /* exit_square.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +502,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92328C83245A64DD005E0FEE /* WahtsNextScreenLayout.swift in Sources */,
+				92FFBF0E245AFE3A004D7F79 /* WhatsNextScreenDelegate.swift in Sources */,
 				92328C42245A6289005E0FEE /* AppDelegate.swift in Sources */,
 				92328C72245A6495005E0FEE /* WhatsNextButton.swift in Sources */,
 				92328C44245A6289005E0FEE /* SceneDelegate.swift in Sources */,
@@ -506,6 +528,7 @@
 				92FFBF00245A6DB9004D7F79 /* UIButtonExtension.swift in Sources */,
 				92FFBF04245A6DCF004D7F79 /* StandardColor.swift in Sources */,
 				92FFBEFC245A6DAD004D7F79 /* UIImageExtension.swift in Sources */,
+				92FFBF0F245AFE3A004D7F79 /* WhatsNextScreenDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +545,7 @@
 				92328C64245A628B005E0FEE /* WhatsNextScreenUITests.swift in Sources */,
 				92FFBF05245A6DCF004D7F79 /* StandardColor.swift in Sources */,
 				92FFBEFD245A6DAD004D7F79 /* UIImageExtension.swift in Sources */,
+				92FFBF10245AFE3A004D7F79 /* WhatsNextScreenDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
