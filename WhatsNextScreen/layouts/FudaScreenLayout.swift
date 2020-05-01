@@ -9,14 +9,24 @@
 import UIKit
 import Then
 
+// 札が、superviewのどれくらいを占めたいか。
 private let occupyRatio: CGFloat = 2.0 / 3
-private let aspectRatioSize: CGSize = CGSize(width: 53.0, height: 73.0)
-private let aspectRatio = aspectRatioSize.height / aspectRatioSize.width
+
+// 札の各種実測サイズ (単位はmm)
+private let fudaHeightMeasured: CGFloat = 73.0
+private let fudaWidthMeasured: CGFloat = 53.0
+private let greenOffsetMeasured: CGFloat = 2.0
+// アスペクト比 (幅/高さ)
+private let aspectRatio = fudaWidthMeasured / fudaHeightMeasured
 
 extension FudaViewController {
     internal func layoutFudaScreen() {
         setTatamiBackground()
         setGreenBackView()
+        
+        //
+        // 続きは、whiteBackViewの設定から => fuda_power的な変数が必要？
+        //
     }
     
     private func setTatamiBackground() {
@@ -32,7 +42,7 @@ extension FudaViewController {
         let image = UIImage(named: "washi_darkgreen 001.jpg")
         let greenBackView = UIImageView(image: image)
         let height = fudaHeight()
-        greenBackView.frame.size = CGSize(width: height / aspectRatio, height: height)
+        greenBackView.frame.size = CGSize(width: height * aspectRatio, height: height)
         greenBackView.center = CGPoint(x: view.center.x, y: view.center.y + topOffset() / 2.0)
         tatamiView.addSubview(greenBackView)
         self.greenBackView = greenBackView
@@ -43,11 +53,11 @@ extension FudaViewController {
     }
     
     private func heightBySuperviewHeight() -> CGFloat {
-        return view.frame.size.width * occupyRatio * aspectRatio
+        return (view.frame.size.height - topOffset()) * occupyRatio
     }
     
     private func heightBySuperviewWidth() -> CGFloat {
-        return (view.frame.size.height - topOffset()) * occupyRatio
+        return view.frame.size.width / aspectRatio * occupyRatio
     }
     
     private func topOffset() -> CGFloat {
