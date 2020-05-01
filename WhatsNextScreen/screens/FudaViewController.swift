@@ -11,6 +11,8 @@ import UIKit
 class FudaViewController: UIViewController {
     var shimoString = "下の句がここに入る"
     var titleString = "タイトル未定"
+    var tatamiView: UIImageView!
+    var greenBackView: UIImageView!
 
     init(shimoString: String, title titleString: String) {
         self.shimoString = shimoString
@@ -29,6 +31,7 @@ class FudaViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = titleString
+        layoutFudaScreen()
     }
     
 }

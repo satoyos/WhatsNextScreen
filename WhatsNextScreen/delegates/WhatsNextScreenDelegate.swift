@@ -23,6 +23,7 @@ extension WhatsNextViewController {
         let screen = FudaViewController(shimoString: "はなそむかしのかににおひける", title: "35. 人はいさ 心もしらず")
         let nav = UINavigationController(rootViewController: screen)
         nav.modalPresentationStyle = .fullScreen
+        nav.navigationBar.barTintColor = StandardColor.barTintColor
         present(nav, animated: true)
     }
     

@@ -29,7 +29,8 @@ class FudaScreenTest: XCTestCase {
         // then
         XCTAssertEqual(screen.shimoString, sampleStr)
         XCTAssertEqual(screen.title, sampleTitle)
-        
+        XCTAssertNotNil(screen.tatamiView)
+        XCTAssertNotNil(screen.greenBackView)
         
     }
 

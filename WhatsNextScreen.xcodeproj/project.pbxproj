@@ -61,6 +61,15 @@
 		92FFBF24245BFDC0004D7F79 /* FudaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF23245BFDC0004D7F79 /* FudaViewController.swift */; };
 		92FFBF25245BFDC0004D7F79 /* FudaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF23245BFDC0004D7F79 /* FudaViewController.swift */; };
 		92FFBF26245BFDC0004D7F79 /* FudaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF23245BFDC0004D7F79 /* FudaViewController.swift */; };
+		92FFBF28245C307F004D7F79 /* FudaScreenLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF27245C307F004D7F79 /* FudaScreenLayout.swift */; };
+		92FFBF29245C307F004D7F79 /* FudaScreenLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF27245C307F004D7F79 /* FudaScreenLayout.swift */; };
+		92FFBF2A245C307F004D7F79 /* FudaScreenLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF27245C307F004D7F79 /* FudaScreenLayout.swift */; };
+		92FFBF2D245C31EE004D7F79 /* washi_darkgreen 001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FFBF2B245C31EE004D7F79 /* washi_darkgreen 001.jpg */; };
+		92FFBF2E245C31EE004D7F79 /* washi_darkgreen 001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FFBF2B245C31EE004D7F79 /* washi_darkgreen 001.jpg */; };
+		92FFBF2F245C31EE004D7F79 /* washi_darkgreen 001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FFBF2B245C31EE004D7F79 /* washi_darkgreen 001.jpg */; };
+		92FFBF30245C31EE004D7F79 /* tatami_moved.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FFBF2C245C31EE004D7F79 /* tatami_moved.jpg */; };
+		92FFBF31245C31EE004D7F79 /* tatami_moved.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FFBF2C245C31EE004D7F79 /* tatami_moved.jpg */; };
+		92FFBF32245C31EE004D7F79 /* tatami_moved.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FFBF2C245C31EE004D7F79 /* tatami_moved.jpg */; };
 		EE77F7C882333A633A666067 /* Pods_WhatsNextScreenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788DA79BFFEC3735B0711F0 /* Pods_WhatsNextScreenTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -115,6 +124,9 @@
 		92FFBF15245AFF33004D7F79 /* exit_square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit_square.png; sourceTree = "<group>"; };
 		92FFBF21245BFD68004D7F79 /* FudaScreenTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FudaScreenTest.swift; sourceTree = "<group>"; };
 		92FFBF23245BFDC0004D7F79 /* FudaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FudaViewController.swift; sourceTree = "<group>"; };
+		92FFBF27245C307F004D7F79 /* FudaScreenLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FudaScreenLayout.swift; sourceTree = "<group>"; };
+		92FFBF2B245C31EE004D7F79 /* washi_darkgreen 001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "washi_darkgreen 001.jpg"; sourceTree = "<group>"; };
+		92FFBF2C245C31EE004D7F79 /* tatami_moved.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tatami_moved.jpg; sourceTree = "<group>"; };
 		A9D1ADF83436A93EA5780184 /* Pods-WhatsNextScreen-WhatsNextScreenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNextScreen-WhatsNextScreenUITests.release.xcconfig"; path = "Target Support Files/Pods-WhatsNextScreen-WhatsNextScreenUITests/Pods-WhatsNextScreen-WhatsNextScreenUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C6A19B5E014D60943987B903 /* Pods-WhatsNextScreen-WhatsNextScreenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNextScreen-WhatsNextScreenUITests.debug.xcconfig"; path = "Target Support Files/Pods-WhatsNextScreen-WhatsNextScreenUITests/Pods-WhatsNextScreen-WhatsNextScreenUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1EA6061BC8A3CD501A1767E /* Pods-WhatsNextScreenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNextScreenTests.release.xcconfig"; path = "Target Support Files/Pods-WhatsNextScreenTests/Pods-WhatsNextScreenTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -218,6 +230,8 @@
 				92328C77245A64C5005E0FEE /* torifuda.png */,
 				92FFBF11245AFF24004D7F79 /* gear-520.png */,
 				92FFBF15245AFF33004D7F79 /* exit_square.png */,
+				92FFBF2C245C31EE004D7F79 /* tatami_moved.jpg */,
+				92FFBF2B245C31EE004D7F79 /* washi_darkgreen 001.jpg */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -263,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				92328C82245A64DD005E0FEE /* WahtsNextScreenLayout.swift */,
+				92FFBF27245C307F004D7F79 /* FudaScreenLayout.swift */,
 			);
 			path = layouts;
 			sourceTree = "<group>";
@@ -406,6 +421,8 @@
 				92FFBF12245AFF24004D7F79 /* gear-520.png in Resources */,
 				92328C4B245A628B005E0FEE /* Assets.xcassets in Resources */,
 				92328C79245A64C5005E0FEE /* go_next.png in Resources */,
+				92FFBF30245C31EE004D7F79 /* tatami_moved.jpg in Resources */,
+				92FFBF2D245C31EE004D7F79 /* washi_darkgreen 001.jpg in Resources */,
 				92328C7F245A64C5005E0FEE /* refrain.png in Resources */,
 				92FFBF16245AFF33004D7F79 /* exit_square.png in Resources */,
 			);
@@ -416,9 +433,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				92328C7A245A64C5005E0FEE /* go_next.png in Resources */,
+				92FFBF2E245C31EE004D7F79 /* washi_darkgreen 001.jpg in Resources */,
 				92328C80245A64C5005E0FEE /* refrain.png in Resources */,
 				92FFBF13245AFF24004D7F79 /* gear-520.png in Resources */,
 				92328C7D245A64C5005E0FEE /* torifuda.png in Resources */,
+				92FFBF31245C31EE004D7F79 /* tatami_moved.jpg in Resources */,
 				92FFBF17245AFF33004D7F79 /* exit_square.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,9 +447,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				92328C7B245A64C5005E0FEE /* go_next.png in Resources */,
+				92FFBF2F245C31EE004D7F79 /* washi_darkgreen 001.jpg in Resources */,
 				92328C81245A64C5005E0FEE /* refrain.png in Resources */,
 				92FFBF14245AFF24004D7F79 /* gear-520.png in Resources */,
 				92328C7E245A64C5005E0FEE /* torifuda.png in Resources */,
+				92FFBF32245C31EE004D7F79 /* tatami_moved.jpg in Resources */,
 				92FFBF18245AFF33004D7F79 /* exit_square.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -546,6 +567,7 @@
 				92328C42245A6289005E0FEE /* AppDelegate.swift in Sources */,
 				92328C72245A6495005E0FEE /* WhatsNextButton.swift in Sources */,
 				92328C44245A6289005E0FEE /* SceneDelegate.swift in Sources */,
+				92FFBF28245C307F004D7F79 /* FudaScreenLayout.swift in Sources */,
 				92FFBEFF245A6DB9004D7F79 /* UIButtonExtension.swift in Sources */,
 				92FFBF24245BFDC0004D7F79 /* FudaViewController.swift in Sources */,
 				92FFBEF7245A6DA3004D7F79 /* UIColorExtention.swift in Sources */,
@@ -565,6 +587,7 @@
 				92FFBF0C245AA457004D7F79 /* WhatsNextScreenTest.swift in Sources */,
 				92FFBEF8245A6DA3004D7F79 /* UIColorExtention.swift in Sources */,
 				92328C84245A64DD005E0FEE /* WahtsNextScreenLayout.swift in Sources */,
+				92FFBF29245C307F004D7F79 /* FudaScreenLayout.swift in Sources */,
 				92FFBF08245A6DF7004D7F79 /* ViewSize.swift in Sources */,
 				92FFBF25245BFDC0004D7F79 /* FudaViewController.swift in Sources */,
 				92FFBF00245A6DB9004D7F79 /* UIButtonExtension.swift in Sources */,
@@ -590,6 +613,7 @@
 				92FFBF26245BFDC0004D7F79 /* FudaViewController.swift in Sources */,
 				92FFBEFD245A6DAD004D7F79 /* UIImageExtension.swift in Sources */,
 				92FFBF10245AFE3A004D7F79 /* WhatsNextScreenDelegate.swift in Sources */,
+				92FFBF2A245C307F004D7F79 /* FudaScreenLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
