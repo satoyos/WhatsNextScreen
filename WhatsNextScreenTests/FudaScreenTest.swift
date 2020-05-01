@@ -22,11 +22,13 @@ class FudaScreenTest: XCTestCase {
     func test_initialScreen() {
         // given
         let sampleStr = "けふここのへににおひぬるかな"
-        let screen = FudaViewController(shimoString: sampleStr)
+        let sampleTitle = "サンプルのタイトル"
+        let screen = FudaViewController(shimoString: sampleStr, title: sampleTitle)
         // when
         screen.loadViewIfNeeded()
         // then
         XCTAssertEqual(screen.shimoString, sampleStr)
+        XCTAssertEqual(screen.title, sampleTitle)
         
         
     }
