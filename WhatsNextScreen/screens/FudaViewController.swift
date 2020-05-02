@@ -14,7 +14,7 @@ class FudaViewController: UIViewController {
     var fudaPower: CGFloat = 0.0  // 実測サイズ(mm)の何倍で画面表示するか
     var tatamiView: UIImageView!
     var greenBackView: UIImageView!
-    var whiteBackView: UIImageView!
+    var whiteBackView: UIView!
 
     init(shimoString: String, title titleString: String) {
         self.shimoString = shimoString

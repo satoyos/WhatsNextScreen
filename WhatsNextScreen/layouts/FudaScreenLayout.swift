@@ -23,10 +23,7 @@ extension FudaViewController {
     internal func layoutFudaScreen() {
         setTatamiBackground()
         setGreenBackView()
-        
-        //
-        // 続きは、whiteBackViewの設定から => fuda_power的な変数が必要？
-        //
+        setWhiteBackView()
     }
     
     private func setTatamiBackground() {
@@ -47,6 +44,23 @@ extension FudaViewController {
         greenBackView.center = CGPoint(x: view.center.x, y: view.center.y + topOffset() / 2.0)
         tatamiView.addSubview(greenBackView)
         self.greenBackView = greenBackView
+    }
+    
+    private func setWhiteBackView() {
+        guard let greenBackView = self.greenBackView else { return }
+        guard let tatamiView = self.tatamiView else { return }
+        let superViewHeight = greenBackView.frame.size.height
+        let superViewWidth = greenBackView.frame.size.width
+        let offset = greenOffsetMeasured * fudaPower
+        let whiteBackView = UIView(frame: CGRect(
+            x: 0, y: 0,
+            width: superViewWidth - 2 * offset,
+            height: superViewHeight - 2 * offset)).then {
+                $0.backgroundColor = UIColor(hex: "FFF7E5")
+                $0.center = greenBackView.center
+                tatamiView.addSubview($0)
+        }
+        self.whiteBackView = whiteBackView
     }
     
     private func fudaHeight() -> CGFloat {
