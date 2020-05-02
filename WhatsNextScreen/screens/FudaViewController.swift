@@ -11,8 +11,10 @@ import UIKit
 class FudaViewController: UIViewController {
     var shimoString = "下の句がここに入る"
     var titleString = "タイトル未定"
+    var fudaPower: CGFloat = 0.0  // 実測サイズ(mm)の何倍で画面表示するか
     var tatamiView: UIImageView!
     var greenBackView: UIImageView!
+    var whiteBackView: UIImageView!
 
     init(shimoString: String, title titleString: String) {
         self.shimoString = shimoString

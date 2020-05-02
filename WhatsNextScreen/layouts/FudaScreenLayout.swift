@@ -42,7 +42,8 @@ extension FudaViewController {
         let image = UIImage(named: "washi_darkgreen 001.jpg")
         let greenBackView = UIImageView(image: image)
         let height = fudaHeight()
-        greenBackView.frame.size = CGSize(width: height * aspectRatio, height: height)
+        self.fudaPower = height / fudaHeightMeasured
+        greenBackView.frame.size = CGSize(width: fudaWidthMeasured * fudaPower, height: height)
         greenBackView.center = CGPoint(x: view.center.x, y: view.center.y + topOffset() / 2.0)
         tatamiView.addSubview(greenBackView)
         self.greenBackView = greenBackView
