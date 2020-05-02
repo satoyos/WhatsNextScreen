@@ -15,6 +15,7 @@ class FudaViewController: UIViewController {
     var tatamiView: UIImageView!
     var greenBackView: UIImageView!
     var whiteBackView: UIView!
+    var labels15 = [UILabel]()
 
     init(shimoString: String, title titleString: String) {
         self.shimoString = shimoString

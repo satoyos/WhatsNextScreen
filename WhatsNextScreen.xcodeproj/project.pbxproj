@@ -70,6 +70,9 @@
 		92FFBF30245C31EE004D7F79 /* tatami_moved.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FFBF2C245C31EE004D7F79 /* tatami_moved.jpg */; };
 		92FFBF31245C31EE004D7F79 /* tatami_moved.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FFBF2C245C31EE004D7F79 /* tatami_moved.jpg */; };
 		92FFBF32245C31EE004D7F79 /* tatami_moved.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FFBF2C245C31EE004D7F79 /* tatami_moved.jpg */; };
+		92FFBF35245D95BE004D7F79 /* String-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF34245D95BE004D7F79 /* String-extension.swift */; };
+		92FFBF36245D95BE004D7F79 /* String-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF34245D95BE004D7F79 /* String-extension.swift */; };
+		92FFBF37245D95BE004D7F79 /* String-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF34245D95BE004D7F79 /* String-extension.swift */; };
 		EE77F7C882333A633A666067 /* Pods_WhatsNextScreenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788DA79BFFEC3735B0711F0 /* Pods_WhatsNextScreenTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -127,6 +130,7 @@
 		92FFBF27245C307F004D7F79 /* FudaScreenLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FudaScreenLayout.swift; sourceTree = "<group>"; };
 		92FFBF2B245C31EE004D7F79 /* washi_darkgreen 001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "washi_darkgreen 001.jpg"; sourceTree = "<group>"; };
 		92FFBF2C245C31EE004D7F79 /* tatami_moved.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tatami_moved.jpg; sourceTree = "<group>"; };
+		92FFBF34245D95BE004D7F79 /* String-extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-extension.swift"; sourceTree = "<group>"; };
 		A9D1ADF83436A93EA5780184 /* Pods-WhatsNextScreen-WhatsNextScreenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNextScreen-WhatsNextScreenUITests.release.xcconfig"; path = "Target Support Files/Pods-WhatsNextScreen-WhatsNextScreenUITests/Pods-WhatsNextScreen-WhatsNextScreenUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C6A19B5E014D60943987B903 /* Pods-WhatsNextScreen-WhatsNextScreenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNextScreen-WhatsNextScreenUITests.debug.xcconfig"; path = "Target Support Files/Pods-WhatsNextScreen-WhatsNextScreenUITests/Pods-WhatsNextScreen-WhatsNextScreenUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1EA6061BC8A3CD501A1767E /* Pods-WhatsNextScreenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNextScreenTests.release.xcconfig"; path = "Target Support Files/Pods-WhatsNextScreenTests/Pods-WhatsNextScreenTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -188,6 +192,7 @@
 		92328C40245A6289005E0FEE /* WhatsNextScreen */ = {
 			isa = PBXGroup;
 			children = (
+				92FFBF33245D95A2004D7F79 /* libs */,
 				92FFBF1B245B030A004D7F79 /* views */,
 				92FFBF1C245B0321004D7F79 /* layouts */,
 				92FFBF1A245B02FA004D7F79 /* delegates */,
@@ -280,6 +285,14 @@
 				92FFBF27245C307F004D7F79 /* FudaScreenLayout.swift */,
 			);
 			path = layouts;
+			sourceTree = "<group>";
+		};
+		92FFBF33245D95A2004D7F79 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				92FFBF34245D95BE004D7F79 /* String-extension.swift */,
+			);
+			path = libs;
 			sourceTree = "<group>";
 		};
 		A291E2053E1AC1C995354AC5 /* Pods */ = {
@@ -564,6 +577,7 @@
 			files = (
 				92328C83245A64DD005E0FEE /* WahtsNextScreenLayout.swift in Sources */,
 				92FFBF0E245AFE3A004D7F79 /* WhatsNextScreenDelegate.swift in Sources */,
+				92FFBF35245D95BE004D7F79 /* String-extension.swift in Sources */,
 				92328C42245A6289005E0FEE /* AppDelegate.swift in Sources */,
 				92328C72245A6495005E0FEE /* WhatsNextButton.swift in Sources */,
 				92328C44245A6289005E0FEE /* SceneDelegate.swift in Sources */,
@@ -584,6 +598,7 @@
 			files = (
 				92328C73245A6495005E0FEE /* WhatsNextButton.swift in Sources */,
 				92328C8C245A652A005E0FEE /* WhatsNextViewController.swift in Sources */,
+				92FFBF36245D95BE004D7F79 /* String-extension.swift in Sources */,
 				92FFBF0C245AA457004D7F79 /* WhatsNextScreenTest.swift in Sources */,
 				92FFBEF8245A6DA3004D7F79 /* UIColorExtention.swift in Sources */,
 				92328C84245A64DD005E0FEE /* WahtsNextScreenLayout.swift in Sources */,
@@ -604,6 +619,7 @@
 			files = (
 				92328C74245A6495005E0FEE /* WhatsNextButton.swift in Sources */,
 				92328C8D245A652A005E0FEE /* WhatsNextViewController.swift in Sources */,
+				92FFBF37245D95BE004D7F79 /* String-extension.swift in Sources */,
 				92FFBEF9245A6DA3004D7F79 /* UIColorExtention.swift in Sources */,
 				92328C85245A64DD005E0FEE /* WahtsNextScreenLayout.swift in Sources */,
 				92FFBF09245A6DF7004D7F79 /* ViewSize.swift in Sources */,
