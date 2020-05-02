@@ -31,7 +31,7 @@ class FudaScreenTest: XCTestCase {
         XCTAssertEqual(screen.title, sampleTitle)
         XCTAssertNotNil(screen.tatamiView)
         XCTAssertNotNil(screen.greenBackView)
-        
+        XCTAssertNotNil(screen.whiteBackView)
     }
 
     
