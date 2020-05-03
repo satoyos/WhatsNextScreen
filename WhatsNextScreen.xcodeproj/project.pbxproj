@@ -73,6 +73,9 @@
 		92FFBF35245D95BE004D7F79 /* String-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF34245D95BE004D7F79 /* String-extension.swift */; };
 		92FFBF36245D95BE004D7F79 /* String-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF34245D95BE004D7F79 /* String-extension.swift */; };
 		92FFBF37245D95BE004D7F79 /* String-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF34245D95BE004D7F79 /* String-extension.swift */; };
+		92FFBF39245EF387004D7F79 /* FudaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF38245EF387004D7F79 /* FudaView.swift */; };
+		92FFBF3A245EF387004D7F79 /* FudaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF38245EF387004D7F79 /* FudaView.swift */; };
+		92FFBF3B245EF387004D7F79 /* FudaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBF38245EF387004D7F79 /* FudaView.swift */; };
 		EE77F7C882333A633A666067 /* Pods_WhatsNextScreenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788DA79BFFEC3735B0711F0 /* Pods_WhatsNextScreenTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -131,6 +134,7 @@
 		92FFBF2B245C31EE004D7F79 /* washi_darkgreen 001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "washi_darkgreen 001.jpg"; sourceTree = "<group>"; };
 		92FFBF2C245C31EE004D7F79 /* tatami_moved.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tatami_moved.jpg; sourceTree = "<group>"; };
 		92FFBF34245D95BE004D7F79 /* String-extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-extension.swift"; sourceTree = "<group>"; };
+		92FFBF38245EF387004D7F79 /* FudaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FudaView.swift; sourceTree = "<group>"; };
 		A9D1ADF83436A93EA5780184 /* Pods-WhatsNextScreen-WhatsNextScreenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNextScreen-WhatsNextScreenUITests.release.xcconfig"; path = "Target Support Files/Pods-WhatsNextScreen-WhatsNextScreenUITests/Pods-WhatsNextScreen-WhatsNextScreenUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C6A19B5E014D60943987B903 /* Pods-WhatsNextScreen-WhatsNextScreenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNextScreen-WhatsNextScreenUITests.debug.xcconfig"; path = "Target Support Files/Pods-WhatsNextScreen-WhatsNextScreenUITests/Pods-WhatsNextScreen-WhatsNextScreenUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1EA6061BC8A3CD501A1767E /* Pods-WhatsNextScreenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNextScreenTests.release.xcconfig"; path = "Target Support Files/Pods-WhatsNextScreenTests/Pods-WhatsNextScreenTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -274,6 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				92328C71245A6495005E0FEE /* WhatsNextButton.swift */,
+				92FFBF38245EF387004D7F79 /* FudaView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -586,6 +591,7 @@
 				92FFBF24245BFDC0004D7F79 /* FudaViewController.swift in Sources */,
 				92FFBEF7245A6DA3004D7F79 /* UIColorExtention.swift in Sources */,
 				92328C8B245A652A005E0FEE /* WhatsNextViewController.swift in Sources */,
+				92FFBF39245EF387004D7F79 /* FudaView.swift in Sources */,
 				92FFBF07245A6DF7004D7F79 /* ViewSize.swift in Sources */,
 				92FFBF03245A6DCF004D7F79 /* StandardColor.swift in Sources */,
 				92FFBEFB245A6DAD004D7F79 /* UIImageExtension.swift in Sources */,
@@ -607,6 +613,7 @@
 				92FFBF25245BFDC0004D7F79 /* FudaViewController.swift in Sources */,
 				92FFBF00245A6DB9004D7F79 /* UIButtonExtension.swift in Sources */,
 				92FFBF04245A6DCF004D7F79 /* StandardColor.swift in Sources */,
+				92FFBF3A245EF387004D7F79 /* FudaView.swift in Sources */,
 				92FFBEFC245A6DAD004D7F79 /* UIImageExtension.swift in Sources */,
 				92FFBF0F245AFE3A004D7F79 /* WhatsNextScreenDelegate.swift in Sources */,
 				92FFBF22245BFD68004D7F79 /* FudaScreenTest.swift in Sources */,
@@ -621,6 +628,7 @@
 				92328C8D245A652A005E0FEE /* WhatsNextViewController.swift in Sources */,
 				92FFBF37245D95BE004D7F79 /* String-extension.swift in Sources */,
 				92FFBEF9245A6DA3004D7F79 /* UIColorExtention.swift in Sources */,
+				92FFBF3B245EF387004D7F79 /* FudaView.swift in Sources */,
 				92328C85245A64DD005E0FEE /* WahtsNextScreenLayout.swift in Sources */,
 				92FFBF09245A6DF7004D7F79 /* ViewSize.swift in Sources */,
 				92FFBF01245A6DB9004D7F79 /* UIButtonExtension.swift in Sources */,
