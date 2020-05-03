@@ -11,11 +11,8 @@ import UIKit
 class FudaViewController: UIViewController {
     var shimoString = "下の句がここに入る"
     var titleString = "タイトル未定"
-//    var fudaPower: CGFloat = 0.0  // 実測サイズ(mm)の何倍で画面表示するか
     var tatamiView: UIImageView!
     var fudaView: FudaView!
-//    var whiteBackView: UIView!
-//    var labels15 = [UILabel]()
 
     init(shimoString: String, title titleString: String) {
         self.shimoString = shimoString
@@ -35,6 +32,16 @@ class FudaViewController: UIViewController {
         
         self.title = titleString
         layoutFudaScreen()
+        setDismissButton()
+    }
+    
+    private func setDismissButton() {
+        let dismissButton = UIBarButtonItem(title: "閉じる", style: .plain, target: self, action: #selector(dismissButtonTapped))
+        self.navigationItem.rightBarButtonItem = dismissButton
+    }
+    
+    @objc func dismissButtonTapped() {
+        dismiss(animated: true)
     }
     
 }
