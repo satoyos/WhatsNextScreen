@@ -13,7 +13,7 @@ class FudaViewController: UIViewController {
     var titleString = "タイトル未定"
     var fudaPower: CGFloat = 0.0  // 実測サイズ(mm)の何倍で画面表示するか
     var tatamiView: UIImageView!
-    var greenBackView: UIImageView!
+    var fudaView: UIImageView!
     var whiteBackView: UIView!
     var labels15 = [UILabel]()
 

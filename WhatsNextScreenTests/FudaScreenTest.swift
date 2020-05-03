@@ -30,7 +30,7 @@ class FudaScreenTest: XCTestCase {
         XCTAssertEqual(screen.shimoString, sampleStr)
         XCTAssertEqual(screen.title, sampleTitle)
         XCTAssertNotNil(screen.tatamiView)
-        XCTAssertNotNil(screen.greenBackView)
+        XCTAssertNotNil(screen.fudaView)
         XCTAssertNotNil(screen.whiteBackView)
         XCTAssertEqual(screen.labels15.first?.textColor, UIColor.black)
     }

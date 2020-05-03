@@ -25,7 +25,7 @@ private let fudaFontSizeBase: CGFloat = 11
 extension FudaViewController {
     internal func layoutFudaScreen() {
         setTatamiBackground()
-        setGreenBackView()
+        setFudaView()
         setWhiteBackView()
         setLabels15()
     }
@@ -38,7 +38,7 @@ extension FudaViewController {
         self.tatamiView = tatamiView
     }
     
-    private func setGreenBackView() {
+    private func setFudaView() {
         guard let tatamiView = self.tatamiView else { return }
         let image = UIImage(named: "washi_darkgreen 001.jpg")
         let greenBackView = UIImageView(image: image)
@@ -47,11 +47,11 @@ extension FudaViewController {
         greenBackView.frame.size = CGSize(width: fudaWidthMeasured * fudaPower, height: height)
         greenBackView.center = CGPoint(x: view.center.x, y: view.center.y + topOffset() / 2.0)
         tatamiView.addSubview(greenBackView)
-        self.greenBackView = greenBackView
+        self.fudaView = greenBackView
     }
     
     private func setWhiteBackView() {
-        guard let greenBackView = self.greenBackView else { return }
+        guard let greenBackView = self.fudaView else { return }
         let superViewHeight = greenBackView.frame.height
         let superViewWidth = greenBackView.frame.width
         let offset = greenOffsetMeasured * fudaPower
@@ -76,7 +76,7 @@ extension FudaViewController {
                                   size: labelSize())
                 $0.accessibilityLabel = "fudaChar_\(idx)"
                 $0.textColor = .black
-                greenBackView.addSubview($0)
+                fudaView.addSubview($0)
             }
             self.labels15.append(label)
         }
