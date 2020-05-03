@@ -19,7 +19,7 @@ private let greenOffsetMeasured: CGFloat = 2.0
 // アスペクト比 (幅/高さ)
 private let aspectRatio = fudaWidthMeasured / fudaHeightMeasured
 // 文字のフォント
-private let fudaFont = UIFont(name: "HiraMinProN-W3", size: 5)
+private let fudaFont = UIFont(name: "HiraMinProN-W6", size: 5)
 private let fudaFontSizeBase: CGFloat = 11
 
 extension FudaViewController {
