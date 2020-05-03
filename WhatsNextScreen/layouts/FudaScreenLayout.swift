@@ -15,19 +15,13 @@ private let occupyRatio: CGFloat = 2.0 / 3
 // 札の各種実測サイズ (単位はmm)
 private let fudaHeightMeasured: CGFloat = 73.0
 private let fudaWidthMeasured: CGFloat = 53.0
-//private let greenOffsetMeasured: CGFloat = 2.0
 // アスペクト比 (幅/高さ)
 private let aspectRatio = fudaWidthMeasured / fudaHeightMeasured
-//// 文字のフォント
-//private let fudaFont = UIFont(name: "HiraMinProN-W6", size: 5)
-//private let fudaFontSizeBase: CGFloat = 11
 
 extension FudaViewController {
     internal func layoutFudaScreen() {
         setTatamiBackground()
         setFudaView()
-//        setWhiteBackView()
-//        setLabels15()
     }
     
     private func setTatamiBackground() {
@@ -40,7 +34,6 @@ extension FudaViewController {
     
     private func setFudaView() {
         guard let tatamiView = self.tatamiView else { return }
-//        let image = UIImage(named: "washi_darkgreen 001.jpg")
         let height = fudaHeight()
         let fudaPower = height / fudaHeightMeasured
         let fudaFrame = CGRect(origin: CGPoint(x: 0, y: 0), size: CGSize(width: fudaWidthMeasured * fudaPower, height: height) )
@@ -50,39 +43,7 @@ extension FudaViewController {
         tatamiView.addSubview(fudaView)
         self.fudaView = fudaView
     }
-    
-//    private func setWhiteBackView() {
-//        guard let greenBackView = self.fudaView else { return }
-//        let superViewHeight = greenBackView.frame.height
-//        let superViewWidth = greenBackView.frame.width
-//        let offset = greenOffsetMeasured * fudaPower
-//        let whiteBackView = UIView(frame: CGRect(
-//            x: offset, y: offset,
-//            width: superViewWidth - 2 * offset,
-//            height: superViewHeight - 2 * offset)).then {
-//                $0.backgroundColor = UIColor(hex: "FFF7E5")
-//                greenBackView.addSubview($0)
-//        }
-//        self.whiteBackView = whiteBackView
-//    }
-    
-//    private func setLabels15() {
-//        let strArray = (shimoString + "  ").splitInto(1)
-//        for idx in 0..<15 {
-//            let label = UILabel().then {
-//                $0.text = strArray[idx]
-//                $0.font = fudaFont?.withSize(fudaFontSize())
-//                $0.textAlignment = .center
-//                $0.frame = CGRect(origin: labelOriginOf(idx),
-//                                  size: labelSize())
-//                $0.accessibilityLabel = "fudaChar_\(idx)"
-//                $0.textColor = .black
-//                fudaView.addSubview($0)
-//            }
-//            self.labels15.append(label)
-//        }
-//    }
-    
+        
     private func fudaHeight() -> CGFloat {
         return [heightBySuperviewWidth(), heightBySuperviewHeight()].min() ?? 300
     }
@@ -103,35 +64,6 @@ extension FudaViewController {
         return statusBarHeight + navigationBarHeight
     }
     
-//    private func fudaFontSize() -> CGFloat {
-//        return fudaFontSizeBase * fudaPower
-//    }
-//
-//    private func labelOriginOf(_ index: Int) -> CGPoint{
-//        return CGPoint(x: labelOriginZero().x + labelSize().width * CGFloat(columnNumberOf(labelIndex: index )),
-//                       y: labelOriginZero().y + labelSize().height * CGFloat((index % 5)))
-//    }
-//
-//    private func columnNumberOf(labelIndex: Int) -> Int {
-//        switch labelIndex {
-//        case 0..<5:
-//            return 2
-//        case 5..<10:
-//            return 1
-//        default:
-//            return 0
-//        }
-//    }
-//
-//    private func labelSize() -> CGSize {
-//        return CGSize(width: whiteBackView.frame.width / 3,
-//                      height: whiteBackView.frame.height / 5)
-//    }
-//
-//    private func labelOriginZero() -> CGPoint {
-//        return CGPoint(x: greenOffsetMeasured * fudaPower,
-//                       y: greenOffsetMeasured * fudaPower)
-//    }
 }
 
 
